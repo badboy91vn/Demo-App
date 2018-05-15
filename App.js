@@ -7,6 +7,7 @@ import AmazonUIDemo from "./src/AmazonUIDemo";
 import TwitterUIDemo from "./src/TwitterUIDemo";
 import InstagramUIDemo from "./src/InstagramUIDemo";
 import LoginAppDemo from "./src/LoginAppDemo";
+import YoutubeUIDemo from "./src/YoutubeUIDemo";
 
 console.ignoredYellowBox = ["Setting a timer", "Warning: "];
 

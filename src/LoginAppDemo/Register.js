@@ -87,7 +87,9 @@ class Register extends Component {
                             <View style={styles.inputContainer}>
                                 {/* Username */}
                                 <Item floatingLabel style={styles.inputText}>
-                                    <Label style={{ fontSize: 15 }}>
+                                    <Label
+                                        style={{ fontSize: 15, color: "white" }}
+                                    >
                                         Username
                                     </Label>
                                     <Input
@@ -105,7 +107,9 @@ class Register extends Component {
                                         { marginTop: 15 }
                                     ]}
                                 >
-                                    <Label style={{ fontSize: 15 }}>
+                                    <Label
+                                        style={{ fontSize: 15, color: "white" }}
+                                    >
                                         Password
                                     </Label>
                                     <Input

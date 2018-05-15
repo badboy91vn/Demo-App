@@ -18,8 +18,6 @@ import KeyboardSpacer from "react-native-keyboard-spacer";
 import DismissKeyboard from "dismissKeyboard";
 import Spinner from "react-native-loading-spinner-overlay";
 
-// import {  } from "native-base";
-
 class Login extends Component {
     static navigationOptions = {
         header: null
