@@ -42,7 +42,7 @@ class Register extends Component {
 
     btnRegister = () => {
         if (this.state.username == "" || this.state.password == "") {
-            alert("Username or Password is empty");
+            alert("Username or Password is empty.");
             return;
         }
         this.setState({ loading: true });
