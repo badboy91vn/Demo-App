@@ -1,0 +1,32 @@
+{
+    "expo": {
+        "name": "Demo App",
+        "description": "A starter template",
+        "slug": "demoapp",
+        "privacy": "unlisted",
+        "sdkVersion": "26.0.0",
+        "ios": {
+            "bundleIdentifier": "com.hnl.demoapp",
+            "supportsTablet": true
+        },
+        "android": {
+            "package": "com.hnl.demoapp",
+            "permissions": []
+        },
+        "version": "1.0.0",
+        "orientation": "portrait",
+        "primaryColor": "#cccccc",
+        "icon":
+            "https://s3.amazonaws.com/exp-brand-assets/ExponentEmptyManifest_192.png",
+        "notification": {
+            "icon":
+                "https://s3.amazonaws.com/exp-us-standard/placeholder-push-icon.png",
+            "color": "#000000"
+        },
+        "loading": {
+            "hideExponentText": true,
+            "icon":
+                "https://s3.amazonaws.com/exp-brand-assets/ExponentEmptyManifest_192.png"
+        }
+    }
+}
