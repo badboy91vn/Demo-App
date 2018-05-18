@@ -7,13 +7,15 @@ import AmazonUIDemo from "./src/AmazonUIDemo";
 import TwitterUIDemo from "./src/TwitterUIDemo";
 import InstagramUIDemo from "./src/InstagramUIDemo";
 import LoginAppDemo from "./src/LoginAppDemo";
-import YoutubeUIDemo from "./src/YoutubeUIDemo";
+import HomeSceneUI from "./src/HomeSceneUI";
+import MobxCountDemo from "./src/MobxCountDemo";
+import MobXListDemo from "./src/MobXListDemo";
 
 console.ignoredYellowBox = ["Setting a timer", "Warning: "];
 
 class App extends Component {
     render() {
-        return <LoginAppDemo />;
+        return <MobXListDemo />;
     }
 }
 
