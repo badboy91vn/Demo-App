@@ -1,21 +1,9 @@
-import Expo from "expo";
 import React from "react";
-import { StyleSheet, Text, View } from "react-native";
-import { Container, Content } from "native-base";
 
-import Counter from "../src/MobXDemo/Counter";
+import CounterNum from "../src/MobXDemo/CounterNum";
 
 export default class MobXCountDemo extends React.Component {
     render() {
-        return <Counter />;
+        return <CounterNum />;
     }
 }
-
-const styles = StyleSheet.create({
-    container: {
-        flex: 1,
-        backgroundColor: "#fff",
-        alignItems: "center",
-        justifyContent: "center"
-    }
-});

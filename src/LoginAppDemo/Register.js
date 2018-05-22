@@ -133,7 +133,8 @@ class Register extends Component {
                                 full
                                 style={styles.btnBack}
                                 onPress={() => {
-                                    this.props.navigation.navigate("LoginPage");
+                                    this.props.navigation.goBack();
+                                    // this.props.navigation.navigate("LoginPage");
                                 }}
                             >
                                 <Text>Back</Text>
